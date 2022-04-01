@@ -81,7 +81,7 @@ class ProductController extends BaseController
             $start_date = $r->start_date;
             $end_date = $r->end_date;
 
-            $query = DB::table('product');
+            $query = DB::table('product_paging');
 
             if ($start_date) {
                 $query = $query->whereDate('created_at', '>=', $start_date)
