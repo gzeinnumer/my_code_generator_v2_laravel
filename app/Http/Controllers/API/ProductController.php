@@ -60,6 +60,7 @@ class ProductController extends BaseController
         }
     }
 
+
     //localhost:8000/api/product/all
     public function all()
     {
