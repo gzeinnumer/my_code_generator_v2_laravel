@@ -72,6 +72,7 @@ class ProductController extends BaseController
         }
     }
 
+
     //http://localhost:8000/api/product/paging?limit=10&page=1&start_date=2023-01-01&end_date=2023-01-01
     public function paging(Request $r)
     {
